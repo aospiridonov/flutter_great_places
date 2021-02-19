@@ -39,7 +39,7 @@ class PlacesListScreen extends StatelessWidget {
                     greatPlaces.items[i].title,
                   ),
                   onTap: () {
-                    // Go to detail page ...
+                    // Go to detail page ....
                   },
                 ),
               ),
