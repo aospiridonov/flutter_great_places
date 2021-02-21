@@ -28,7 +28,9 @@ class _ImageInputState extends State<ImageInput> {
       maxWidth: 600.0,
     );
     final imageFile = File(pickedFile.path);
-
+    if (imageFile == null) {
+      return;
+    }
     setState(() {
       _storedImage = imageFile;
     });
