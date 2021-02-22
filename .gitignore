@@ -22,3 +22,4 @@ doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
 lib/keys/google_api_key.dart
+.flutter-plugins-dependencies
